@@ -16,7 +16,6 @@
                 **Features**
                 1.Clean and interactive design
                 2.Responsive layout for various devices
-                
                 **Tech Stack**
                 1.HTML5, CSS3
                 2.JavaScript
