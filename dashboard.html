@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dashboard.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">LearnHub</a>
+            <ul class="nav-links">
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="login.html" class="btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Dashboard -->
+    <main class="dashboard">
+        <div class="container">
+            <h1>Your Dashboard</h1>
+            <div class="progress-section">
+                <h2>Course Progress</h2>
+                <div class="progress-container">
+                    <label for="progress">Web Development Bootcamp</label>
+                    <progress id="progress" value="60" max="100"></progress>
+                </div>
+                <div class="progress-container">
+                    <label for="progress">Data Science Mastery</label>
+                    <progress id="progress" value="40" max="100"></progress>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 LearnHub. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
